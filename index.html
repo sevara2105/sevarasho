@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Personal Page</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to right, #ffafbd, #ffc3a0); /* Pinkish gradient */
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #5a3d5c; 
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2); /* Light semi-transparent background */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .button {
+            text-decoration: none;
+            background-color: #ff6f91; /* Pink button */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: #ff4e78; /* Darker pink on hover */
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ff87ab; 
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Personal Page</h1>
+        <p>Explore more about me and my interests by visiting the pages below:</p>
+        <div class="buttons">
+            <a href="myHobbies.html" class="button">My Hobbies</a>
+            <a href="resume.html" class="button">Resume</a>
+            <a href="myUniversity.html" class="button">My University</a>
+        </div>
+        <footer>
+            <p>Made with ❤️ by <a href="#">Sevara</a></p>
+        </footer>
+    </div>
+</body>
+</html>
